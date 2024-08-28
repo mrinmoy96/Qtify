@@ -6,7 +6,10 @@ const Search = () => {
   return (
     <div >
       <form className={styles.wrapper}  >
-        <input className={styles.search} />
+        <input className={styles.search}
+          placeholder='Search a Song of Your Choice'
+          style={{borderRadius:'10px'}}
+          />
         <div>
             <button className={styles.searchButton} type='submit' >
               <SearchIcon/>
