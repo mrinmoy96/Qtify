@@ -8,3 +8,15 @@
     width: 100vw;
     padding: 0px 32px;
 }
+.feedback{
+    border:none;
+    height: 45px;
+    border-radius: 12px;
+    padding: 10px 16px;
+    background-color: var(--black--color);
+    color: var(--primary--color);
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
